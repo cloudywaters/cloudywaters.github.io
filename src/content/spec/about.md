@@ -27,6 +27,5 @@ Thanks again for visiting. I hope you found something useful
 
 Mick
 
-[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/c/caLinkedIn_logo_initials.png=30x30)(https://www.linkedin.com/in/mick-waters-4a56238/)]
 
 

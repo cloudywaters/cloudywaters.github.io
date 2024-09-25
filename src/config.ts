@@ -41,7 +41,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/mw-profile-pic.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/mw-profile-pic.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Michael Waters',
   bio: 'My thoughts on topics throughout my professional career that may be useful to other like minded people',
   links: [],

@@ -26,7 +26,7 @@ Throughout my career, I have honed my expertise in a range of domains:
 Thanks again for visiting. I hope you found something useful
 
 Mick
-<a href="https://www.linkedin.com/in/mick-waters-4a56238/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" style="width:30px; height:30px;">
-</a>
+
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/c/caLinkedIn_logo_initials.png =30x30)(https://www.linkedin.com/in/mick-waters-4a56238/)
+
 

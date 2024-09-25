@@ -26,4 +26,7 @@ Throughout my career, I have honed my expertise in a range of domains:
 Thanks again for visiting. I hope you found something useful
 
 Mick
-[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/mick-waters-4a56238/)
+<a href="https://www.linkedin.com/in/mick-waters-4a56238/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="30" height="30">
+</a>
+

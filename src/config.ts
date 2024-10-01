@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/background.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/banner.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: false,         // Display the credit text of the banner image
@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
     }
   },
   favicon: [   {
-    src: 'favicon/favicon.ico',    // Path of the favicon, relative to the /public directory
+    src: 'favicon/favicon-32x32.png',    // Path of the favicon, relative to the /public directory
     theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
     
      }

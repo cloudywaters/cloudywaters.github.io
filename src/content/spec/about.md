@@ -1,6 +1,7 @@
 ### About Me
 
 Hi there!
+[//]: # (![Michael Waters]&#40;./assets/images/mw-profile-pic.jpg "Michael Waters"&#41;)
 
 Thanks for stopping by my blog. I’m Michael Waters, though most people know me as Mick, and I’m based in Melbourne, Australia.
 

@@ -10,7 +10,7 @@ draft: false
 Well, before we get into it I would like to just acknowledge that this is my first blog on my new site. I'm starting with an ambitious topic that I'm planning on being a series. Let's see how I go!
 
 ## Intro
-I have been working in IT for a long time now. Both in an opetation capacity and also as a consultant. I have seen a lot of different environments in Azure, some great and some not so great. The ones that are'nt so great all have the same thing in common- They haven't really thought about their operating model.
+I have been working in IT for a long time now. Both in an opetational capacity and also as a consultant. I have seen a lot of different environments in Azure, some great and some not so great. The ones that are'nt so great all have the same thing in common- They haven't really thought about their operating model.
 
 When it comes to cloud computing, everyone talks about the magic of scalability, flexibility, and cost efficiency. But what’s often missing from the conversation is how businesses actually manage their cloud environments effectively. Its always just jumping straight into workload projects and deploying these in an isolated context, with no real thought about how this will work in the context of the rest of the environment.
 
@@ -37,13 +37,14 @@ moving on...
 ## The Three Key Azure Cloud Operating Models ##
 The main concept starts with how you organise your teams. Let’s break it down into three basic cloud operating models, each tailored to different business needs:
 
-* **Centralised:** This is where one core team manages all the cloud resources, typically used by smaller organisations or those just starting with Azure. It keeps things simple but can be a bottleneck as you grow.
-* **Decentralised:** Here, different teams take control of their own cloud resources. It's ideal for large organisations that need flexibility, but it requires strong governance to prevent chaos.
-* **Hybrid:** A blend of the two, where some services are centrally managed, while others are decentralised. This model is common in enterprises transitioning to the cloud, providing flexibility while maintaining control.
+* **Centralised:** Central operations tend to be the norm for technology environments that consist primarily of stable-state workloads. Examples of stable-state operations include things like commercial-off-the-shelf that have a slow release cadence
+* **Decentralised:** Decentralised operations are the least complex of the common operating models. In this form of operations, all workloads operate independently by dedicated workload teams.
+* **Enterprise:** Enterprise operations balance the need for control and innovation by simplifying decisions and responsibilities. Central IT is replaced by a more facilitative cloud center of excellence or CCoE team, which supports workload teams.
+* **Distributed:** While heavily discouraged, this operations approach might be required for some organisations. The approach mainly relates to organisations that have a loose collection of disparate business units, a diverse base of customer segments, or regional operations.
+
+You can read more on the Microsoft write up [here](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare#distributed-operations).
 
 ## Wrapping Up
 A cloud operating model is crucial for optimising your Azure cloud journey. It helps balance the need for agility and control, ensures your team knows what they're doing, and keeps your cloud costs and risks in check. Whether you’re just starting out or already well into your cloud transformation, having the right operating model will help you get the most out of Azure.
 
 The next step? Let's dive deeper. I'm going to try and not regurgitate the Microsoft documentation moving forward, instead focus on either putting it in better terms or adding what, in my experience, is missing from the content.
-
-I'm also going to focus on the centralised operating model for the series as its the most common. I might circle back at some point and look at the others one day :)

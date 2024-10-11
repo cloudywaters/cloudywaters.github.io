@@ -37,6 +37,11 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
+    {
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/mick-waters-4a56238/',     // Internal links should not include the base path, as it is automatically added
+      external: true,                               // Show an external link icon and will open in a new tab
+    },
   ],
 }
 

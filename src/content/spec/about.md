@@ -5,6 +5,8 @@ Hi there!
 
 Thanks for stopping by my blog. I’m Michael Waters, though most people know me as Mick, and I’m based in Melbourne, Australia.
 
+![Michael Waters](./mw-profile-pic.jpg)
+
 ### A Bit About My Career
 
 I’m a passionate cloud technology leader with nearly two decades of experience. My journey has been all about bridging the gap between innovation and reliability to build future-ready tech solutions. While I primarily work within the Microsoft technology stack, I’m always curious about exploring new tools and approaches. I firmly believe that every technology has its place, and it’s all about finding the best fit for each unique challenge.

@@ -1,5 +1,5 @@
 ---
-title: 'From Chaos to Control: Implementing a Cloud Operating Model in Azure'
+title: 'The Missing Piece in Your Azure Strategy: A Cloud Operating Model'
 published: 2024-10-11
 description: 'Are you still struggling with the basics in your day to day opearations? If you feel like you are constantly putting out fires and not getting ahead, then this might help'
 image: './thisisfine.jpg'

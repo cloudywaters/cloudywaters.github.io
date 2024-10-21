@@ -62,7 +62,7 @@ While Microsoft's framework offers a solid foundation, some of the guidance can 
 
 The first step in defining your cloud operating model is understanding how you organise your teams and responsibilities. Understanding this will greatly influence how you approach your cloud operations and guide decision making, with the most important aspect is understand the roles and responsibilities for yoru team and your stakeholders.
 
-There are four primary cloud operating models to consider, each suited to different business needs:
+Microsoft has a good write up of the four primary cloud operating models to consider, each suited to different business needs:
 
 1. **Centralised:** This model is ideal for environments with stable workloads that don’t change often, such as commercial off-the-shelf software with infrequent updates. In a centralised model, a single team manages all cloud operations, ensuring consistency but potentially limiting agility.
 
@@ -73,6 +73,9 @@ There are four primary cloud operating models to consider, each suited to differ
 4. **Distributed:** Although not recommended for most organisations, a distributed model may be necessary for businesses with a loose collection of disparate business units, diverse customer segments, or regional operations. In such cases, each unit manages its cloud operations independently, which can lead to inconsistencies if not carefully coordinated.
 
 These models aren’t mutually exclusive; many organisations adopt a hybrid approach that blends elements from each to meet specific business requirements.
+
+[Learn more about Operating Models](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare).
+
 
 ### The Role of Landing Zones in Cloud Operating Models
 

@@ -115,4 +115,6 @@ In my experience these are some of the key components missing that cause the mos
 ## Wrapping Up
 A well-defined cloud operating model is essential for optimising your Azure journey. It helps you strike a balance between agility and control, ensures clarity around roles and responsibilities, and keeps your cloud costs and risks manageable. Whether you’re just starting out or deep into your cloud transformation, having a robust operating model will help you get the most out of Azure.
 
-The next step? Let’s dive deeper into each component of the operating model. Instead of merely reiterating the Microsoft documentation, I'll focus on practical insights and lessons learnt from real-world experiences, filling in the gaps where the standard guidance falls short.
+The next step? Keep an eye out for most blog posts either on LinkedIn or check back here and click on the Operating-Model tag on the left hand side of my homepage. 
+
+I plan to go through each of these topics and instead of merely reiterating the Microsoft documentation, I'll focus on practical insights and lessons learnt from real-world experiences, filling in the gaps where the standard guidance falls short.

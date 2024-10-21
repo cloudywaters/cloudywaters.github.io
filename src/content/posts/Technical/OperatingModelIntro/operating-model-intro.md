@@ -7,55 +7,112 @@ tags: [Operating-Model, Cloud, Azure]
 category: 'Tech'
 draft: false 
 ---
-Well, before we get into it I would like to just acknowledge that this is my first blog on my new site. I'm starting with an ambitious topic that I'm planning on being a series. Let's see how I go!
 
-## Intro
-I have been working in IT for a long time now. Both in an opetational capacity and also as a consultant. I have seen a lot of different environments in Azure, some great and some not so great. The ones that aren't so great all have the same thing in common- They haven't really thought about their operating model.
+### The Importance of a Cloud Operating Model for Azure Success
 
-When it comes to cloud computing, everyone talks about the magic of scalability, flexibility, and cost efficiency. But what’s often missing from the conversation is how businesses actually manage their cloud environments effectively. It's always just jumping straight into workload projects and deploying these in an isolated context, with no real thought about how this will work in the context of the rest of the environment.
+Over my years in IT, both in operational roles and as a consultant, I've worked with a wide range of cloud environments—some exceptional and some lacking. The difference between the great and the not-so-great? It often boils down to one key factor: the presence (or absence) of a well-thought-out cloud operating model.
 
- That’s where cloud operating models come in, and if you're using Azure, understanding these models can make or break your cloud strategy.
+When discussing cloud computing, we frequently hear about the magic of scalability, flexibility, and cost efficiency. But what’s often overlooked is how businesses effectively manage their cloud environments. Too often, organisations jump straight into deploying workloads in isolation without considering how these projects fit into the broader ecosystem. The result is a fragmented approach that fails to address the bigger picture.
 
-## Why Should You Care About Cloud Operating Models?
-A cloud operating model is the blueprint that defines how your business leverages cloud resources to operate efficiently, how roles and responsibilities are structured, and how you manage things like security, compliance, and governance. It’s not just about getting into the cloud; it’s about staying there securely and efficiently.
+This is where cloud operating models come in. If you're using Azure, understanding and implementing a well-defined cloud operating model can make or break your cloud strategy.
 
-Without a well-defined cloud operating model, your Azure environment can become a bit of a Wild West, where teams don’t know who’s responsible for what and how you actually get things done. That leads to inefficiencies, security risks, extra costs and massive headaches that build up quickly.
+### Why You Should Care About Cloud Operating Models
 
-**Technical debt ramps up quickly in the cloud. Much quicker than it used to in the data center.**
+A cloud operating model serves as the blueprint for how your organisation leverages cloud resources to operate efficiently. It defines the roles and responsibilities, as well as the strategies for managing security, compliance, and governance. It’s not just about getting to the cloud; it’s about staying there securely and sustainably.
 
-## What Is a Cloud Operating Model?
-In simple terms, a cloud operating model outlines how you manage your cloud infrastructure and services.
+Without a structured cloud operating model, your Azure environment can quickly devolve into chaos, where no one knows who is responsible for what, leading to inefficiencies, security risks, mounting costs, and escalating technical debt. In the cloud, technical debt accumulates much faster than it did in traditional data centre environments, amplifying these challenges if not addressed early.
 
-Microsoft define the Operating Model in their Cloud Adoption Framework, starting in the **Ready** phase. If you are not familiar with this framework, I highly recommend that you have a read. You can find it [here](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview).
+### What Exactly Is a Cloud Operating Model?
 
-The key outcomes that we want to focus on in the Operating Model are actually in these phases:
-* **Secure:** Provides a vision of the complete end state of your security program.
-*  **Manage:** Provides a plan for reliable, well-managed operations.
-* **Govern:** Provides guardrails that regulate cloud interactions.
+At its core, a cloud operating model outlines how you manage your cloud infrastructure and services, ensuring they support your business's objectives. Microsoft defines this model in their [Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/), particularly during the 'Ready' phase. If you're not familiar with this framework, it's worth exploring, as it provides a comprehensive guide to cloud adoption.
 
 
-While I think Microsoft have described this well in their framework, I think some of the messaging gets lost in all the content, as well as some aspects that need to be adapted to the reality of modern cloud operations or filling in some blanks.
+### The Key Outcomes of a Cloud Operating Model
 
-moving on...
+A cloud operating model focuses on three essential outcomes to ensure that cloud resources are managed effectively:
 
-## The Three Key Azure Cloud Operating Models ##
-The main concept starts with understanding how you organise your teams. Let’s break it down into three basic cloud operating models, each tailored to different business needs:
+1. **Secure:**  
+   Establishing a comprehensive security strategy is crucial for protecting cloud environments. This involves:
+   - **Identity and Access Management (IAM):** Implementing principles like least privilege and role-based access.
+   - **Data Protection:** Using encryption, data classification, and backup strategies.
+   - **Threat Detection and Response:** Leveraging tools like Azure Security Centre for continuous monitoring and incident response.
+   - **Compliance:** Meeting regulatory requirements through regular audits and updates.
+   - **Network Security:** Using techniques like segmentation and firewalls to minimise risks.
 
-* **Centralised:** Central operations tend to be the norm for technology environments that consist primarily of stable-state workloads. Examples of stable-state operations include things like commercial-off-the-shelf that have a slow release cadence
-* **Decentralised:** Decentralised operations are the least complex of the common operating models. In this form of operations, all workloads operate independently by dedicated workload teams.
-* **Enterprise:** Enterprise operations balance the need for control and innovation by simplifying decisions and responsibilities. Central IT is replaced by a more facilitative cloud center of excellence or CCoE team, which supports workload teams.
-* **Distributed:** While heavily discouraged, this operations approach might be required for some organisations. The approach mainly relates to organisations that have a loose collection of disparate business units, a diverse base of customer segments, or regional operations.
+2. **Manage:**  
+   This aspect ensures reliable and efficient cloud operations by focusing on:
+   - **Monitoring and Logging:** Using tools such as Azure Monitor for visibility and troubleshooting.
+   - **Operational Automation:** Automating tasks like patching and scaling to reduce manual intervention.
+   - **Infrastructure as Code (IaC):** Using tools like Azure Resource Manager (ARM), Bicep, or Terraform to define and manage infrastructure through code.
+   - **Service Level Management:** Defining and maintaining uptime and response standards.
+   - **Cost and Capacity Optimisation:** Monitoring usage and optimising resources to control costs.
+   - **Disaster Recovery:** Planning and testing strategies to ensure business continuity.
 
-You can read more on the Microsoft write up [here](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare#distributed-operations).
+3. **Govern:**  
+   Governance sets policies and guardrails to maintain control without stifling innovation:
+   - **Policy Enforcement:** Using tools like Azure Policy to standardise configurations.
+   - **Role Definitions:** Establishing clear ownership for cloud resources.
+   - **Resource Organisation:** Implementing tagging and naming conventions for better management.
+   - **Cost Control:** Setting budgets and tracking expenses to avoid cost overruns.
+   - **Compliance Management:** Regularly reviewing cloud usage to meet legal and regulatory standards.
 
-## Landing Zones
-It's impossible to talk about Operating Models without bring up Landing Zones. For a lot of people this is where the conversation starts and ends. While Landig Zones are an extremely important topic in Operating Models, it is not the start and end of the conversation.
+While Microsoft's framework offers a solid foundation, some of the guidance can get lost in the abundance of content. In reality, many organisations need to adapt the framework to better fit the complexities of modern cloud operations. Let’s explore what this adaptation looks like.
 
-For those who dont know, an Azure Landing Zone provides a consistent, well-governed environment where you can deploy your workloads with confidence. It ensures that things like security, governance, and networking are configured correctly from the outset, saving you headaches down the line. You can read more about them [here](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/).
+### Where do you Start?
 
-In essence they are a technical output of topics that are addressed in the Operating Model design, but again, in a lot of scenrios they don't cover everything. It is an extremely important base of it all though.
+The first step in defining your cloud operating model is understanding how you organise your teams and responsibilities. Understanding this will greatly influence how you approach your cloud operations and guide decision making, with the most important aspect is understand the roles and responsibilities for yoru team and your stakeholders.
+
+There are four primary cloud operating models to consider, each suited to different business needs:
+
+1. **Centralised:** This model is ideal for environments with stable workloads that don’t change often, such as commercial off-the-shelf software with infrequent updates. In a centralised model, a single team manages all cloud operations, ensuring consistency but potentially limiting agility.
+
+2. **Decentralised:** In this model, individual workload teams operate independently, which can work well for smaller, agile teams or in organisations where workloads are highly autonomous. While this approach offers flexibility, it can lead to inconsistencies in governance and security.
+
+3. **Enterprise:** This model strikes a balance between control and innovation by centralising governance while still allowing workload teams to operate with some autonomy. A Cloud Centre of Excellence (CCoE) supports teams by providing best practices and guardrails without stifling innovation.
+
+4. **Distributed:** Although not recommended for most organisations, a distributed model may be necessary for businesses with a loose collection of disparate business units, diverse customer segments, or regional operations. In such cases, each unit manages its cloud operations independently, which can lead to inconsistencies if not carefully coordinated.
+
+These models aren’t mutually exclusive; many organisations adopt a hybrid approach that blends elements from each to meet specific business requirements.
+
+### The Role of Landing Zones in Cloud Operating Models
+
+Any discussion about cloud Operating Models inevitably leads to the topic of Landing Zones. For many, this is where the conversation starts—and often ends. However, while Landing Zones are crucial, they are not the entire story.
+
+For those unfamiliar, an Azure Landing Zone provides a pre-configured environment where workloads can be deployed with confidence. It addresses essential elements like security, governance, and networking from the outset, significantly reducing the chances of encountering issues later. [Learn more about Landing Zones](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/).
+
+Landing Zones represent the technical implementation of your cloud operating model, setting up the foundation for a well-governed environment. However, a truly effective cloud strategy requires more than just a good Landing Zone; it needs a comprehensive operating model that aligns people, processes, and technology.
+
+### What’s Often Overlooked or Missing from Cloud Operating Models?
+
+Most companies I see always do the initial designs and Landing Zone implementation and then thats job done. They often overlook how to move to the next stages of maturity and start moving directly to moving in workloads.
+
+In my experience these are some of the key components missing that cause the most headaches in cloud adoption:
+
+1. **Continuous Improvement:**  
+   Cloud environments are dynamic, with new services, features, and security updates emerging rapidly. Your operating model should encompass regular reviews and updates to adapt to evolving challenges, technologies, and business needs. This ensures the organisation remains aligned with best practices and is well-positioned for future growth.
+
+2. **Operational Agility vs. Governance:**  
+   Finding the right balance between empowering teams to innovate and maintaining control is crucial. While it’s important to allow flexibility for experimentation, governance guardrails must be in place to enforce consistent policies across the organisation. This involves setting standards for critical areas like security, compliance, and resource management, while enabling teams to remain agile.
+
+3. **Operational Hygiene:**  
+   Good operational hygiene is essential for maintaining a clean, organised, and well-documented cloud environment. This includes regular audits of resources, removal of unused or obsolete assets, keeping configurations up-to-date, and implementing proper naming conventions and tagging strategies. These practices help to reduce technical debt, improve the security posture, and optimise costs by eliminating waste.
+
+4. **Implementing a Cloud Centre of Excellence (CCoE):**  
+   Establishing a CCoE function provides a centralised team that supports cloud governance, best practices, and tooling. This is a critical function to a successful cloud strategy as it acts as a bridge between governance and agility, setting standards while enabling teams to innovate. It plays a key role in training staff, developing reusable templates, guiding the adoption of Infrastructure as Code (IaC), and promoting operational consistency across the organisation.
+
+5. **Monitoring and Observability:**  
+   Effective cloud operations require robust monitoring and observability strategies. This involves implementing tools to gain visibility into the performance, health, and usage of cloud resources. Solutions like Azure Monitor, Log Analytics, and Application Insights can help detect issues early, support troubleshooting, and ensure that services are running optimally, but you need to really think about the strategy here. Are these tools the right fit? It most cases yes they are, but in a lot of cases further consideration is needed.
+           
+6. **Cost Management:**  
+   Cloud costs can quickly escalate without active oversight. A robust cloud operating model should incorporate proactive cost optimisation strategies, including:
+   - Implementing tagging policies to track resource usage.
+   - Setting budget alerts and automated cost controls.
+   - Regularly reviewing expenditures and adjusting resources to minimise waste.
+
+7. **Code Maintenance**
+    Maintaining Infrastructure as Code (IaC) is crucial to ensure that the infrastructure remains consistent, secure, and efficient over time. Proper code maintenance helps avoid configuration drift, reduces technical debt, and keeps cloud environments aligned with best practices.
 
 ## Wrapping Up
-A cloud operating model is crucial for optimising your Azure cloud journey. It helps balance the need for agility and control, ensures your team knows what they're doing, and keeps your cloud costs and risks in check. Whether you’re just starting out or already well into your cloud transformation, having the right operating model will help you get the most out of Azure.
+A well-defined cloud operating model is essential for optimising your Azure journey. It helps you strike a balance between agility and control, ensures clarity around roles and responsibilities, and keeps your cloud costs and risks manageable. Whether you’re just starting out or deep into your cloud transformation, having a robust operating model will help you get the most out of Azure.
 
-The next step? Let's dive deeper. I'm going to try and not regurgitate the Microsoft documentation moving forward, instead focus on either putting it in better terms or adding what, in my experience, is missing from the content.
+The next step? Let’s dive deeper into each component of the operating model. Instead of merely reiterating the Microsoft documentation, I'll focus on practical insights and lessons learnt from real-world experiences, filling in the gaps where the standard guidance falls short.

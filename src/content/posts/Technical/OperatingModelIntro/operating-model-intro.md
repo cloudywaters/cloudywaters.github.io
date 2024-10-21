@@ -1,5 +1,5 @@
 ---
-title: From Chaos to Control: Implementing a Cloud Operating Model in Azure
+title: 'From Chaos to Control: Implementing a Cloud Operating Model in Azure'
 published: 2024-10-11
 description: 'Are you still struggling with the basics in your day to day opearations? If you feel like you are constantly putting out fires and not getting ahead, then this might help'
 image: './thisisfine.jpg'
@@ -39,6 +39,8 @@ Understanding how to organise teams and responsibilities is the first step. Micr
 4. **Distributed:** Used by organisations with diverse units but requires careful coordination.
 
 Many organisations adopt a hybrid approach to meet specific needs.
+
+You can read more here [Review Common Cloud Operating Models](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/operating-model/compare)
 
 ### The Role of Landing Zones
 

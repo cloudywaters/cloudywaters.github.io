@@ -64,9 +64,9 @@ To create a comprehensive strategy in Azure, focus on:
 
 ### Azure's Design: DevOps vs. Centralised IT
 
-Azure’s initial design catered to DevOps practices, posing challenges for traditional IT like:
+One of the things thats always bugged me is that Microsofts initial design to Azure Monitoor was clearly catered to DevOps practices, posing challenges for traditional IT like:
 
-- **Decentralised Management**: Makes consistent monitoring across teams difficult.
+- **Decentralised Management**: Makes consistent monitoring across teams difficult, adding increased effort and overhead to managing the service.
 - **Tool Sprawl**: Multiple tools can complicate centralised monitoring efforts.
 - **Automation Limitations**: Automation skills may vary, affecting consistent configuration. Can make what should be a minor change into a big challenge.
 - **Operational Hygiene**: Difficulty understanding coverage and configurations. Gaps in monitoring coverage can lead to missed alerts.

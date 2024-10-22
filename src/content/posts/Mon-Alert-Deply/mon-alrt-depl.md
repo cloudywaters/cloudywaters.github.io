@@ -9,7 +9,7 @@ draft: false
 lang: ''
 ---
 
-### Building a Comprehensive Monitoring Strategy in Azure: Key Considerations
+### Intro
 
 Effective monitoring is crucial for managing cloud operations in Azure, especially in complex environments where workloads are continuously evolving. A well-thought-out strategy helps ensure system health, performance, and security while avoiding unnecessary data collection costs and operational noise. This post covers essential aspects of designing a monitoring strategy in Azure, including data collection, deployment options, frameworks, alerts, and tuning.
 
@@ -70,7 +70,6 @@ Ongoing tuning of alerts is necessary to maintain their effectiveness. As worklo
 
 - **Use Dynamic Thresholds**: Implement dynamic alerting based on trends or deviations from baseline metrics, rather than using static thresholds. This approach requires careful calibration to avoid over-tuning, which can result in missed incidents or false positives.
 
-By including a baseline period in the initial deployment and actively managing alert noise, you can fine-tune your monitoring setup more effectively, ensuring alerts align with actual system behaviour and support ongoing improvements.
 
 ### Other Considerations
 
@@ -84,4 +83,4 @@ If you’re using a dedicated automation or policy approach for deploying monito
 
 Designing an effective monitoring strategy in Azure involves thoughtful planning around data collection, deployment, and alerting practices to enable efficient centralised management. By adopting modern frameworks, automating deployment, and regularly tuning alerts, organisations can create a proactive and efficient monitoring setup that balances operational needs with business objectives.
 
-For further exploration, future posts will dive into Observbility, Reporting and options to introduce AI into your alerting strategy.
+**Next Steps** will dive into Observbility, Reporting and options to introduce AI into your alerting strategy. Keep an eye out for future posts!

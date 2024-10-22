@@ -47,7 +47,8 @@ To stay ahead in cloud operations, consider adopting modern frameworks like Site
 - **Service Level Objectives (SLOs)**: Targets for SLIs that define acceptable performance levels. These objectives help ensure the service quality aligns with user expectations.
 - **Top-Down Approach**: Focus on overall service quality by aligning monitoring strategies with SLIs and SLOs, rather than simply tracking system health from the bottom up.
 
-Shifting towards a top-down strategy allows teams to prioritise efforts based on user experience and business outcomes, leading to more meaningful monitoring and alerting practices.
+Shifting towards a top-down strategy allows teams to prioritise efforts based on user experience and business outcomes, leading to more meaningful monitoring and alerting practices. You can read more about these concepts and how to implement SLOs in Azure [here](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor/service-level-objectives).
+
 
 ### Alerts
 

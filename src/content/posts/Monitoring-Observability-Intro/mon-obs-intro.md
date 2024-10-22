@@ -42,7 +42,7 @@ To create a comprehensive strategy in Azure, focus on:
    A single automated approach to cover all critical workloads, maintaining consistency across all services.
 
 3. **Frameworks and Modern Approaches**:  
-   Integrate modern practices like SRE and Platform Engineering. Use Service Level Indicators (SLIs) and Service Level Objectives (SLOs) to monitor service quality proactively and move into a tops down approach.
+   Integrate modern practices like SRE and Platform Engineering. Use Service Level Indicators (SLIs) and Service Level Objectives (SLOs) to monitor service quality proactively and move into a top down approach.
 
 4. **Alerts**:  
    Define policies aligned with SLIs & SLO's and / or service-level agreements (SLAs) and key performance indicators (KPIs), focusing on actionable alerts.

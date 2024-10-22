@@ -48,7 +48,7 @@ To create a comprehensive strategy in Azure, focus on:
    Define policies aligned with SLIs & SLO's and / or service-level agreements (SLAs) and key performance indicators (KPIs), focusing on actionable alerts.
 
 5. **Alert Tuning**:  
-   Regularly update alert thresholds based on historical data. Dynamic alerting can adapt to changes but needs careful application.
+   Noise is the enemy. Regularly update alert thresholds based on historical data. Dynamic alerting can adapt to changes but needs careful application.
 
 6. **Dashboards**:  
    Create meaningful dashboards tailored for different audiences, avoiding clutter and focusing on relevant metrics.

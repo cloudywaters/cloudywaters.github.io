@@ -13,6 +13,8 @@ lang: ''
 
 Effective monitoring is crucial for managing cloud operations in Azure, especially in complex environments where workloads are continuously evolving. A well-thought-out strategy helps ensure system health, performance, and security while avoiding unnecessary data collection costs and operational noise. This post covers essential aspects of designing a monitoring strategy in Azure, including data collection, deployment options, frameworks, alerts, and tuning.
 
+This post a continuation from the post [here](https://cloudywaters.github.io/posts/monitoring-observability-intro/mon-obs-intro/).
+
 ### Data Collection
 
 Deciding which metrics, logs, and diagnostic data to collect is a foundational step in any monitoring strategy. Collecting too much data can generate noise and inflate costs, while insufficient data limits insights. The goal is to strike a balance by collecting the right metrics for meaningful analysis. Key considerations include:

@@ -1,7 +1,7 @@
 ---
-title: obs-strategy
+title: 'Enhancing Observability in Azure: Strategies, Tools, and AI Integration'
 published: 2024-10-25
-description: ''
+description: 'In this final post of my Monitoring and Observability track, we’ll explore the key factors needed to define a solid observability strategy, the tools that can enhance it, and the benefits that AI can bring to the overall approach.'
 image: './grafana.png'
 tags: [Operating-Model, Observability, Azure]
 category: 'Tech'

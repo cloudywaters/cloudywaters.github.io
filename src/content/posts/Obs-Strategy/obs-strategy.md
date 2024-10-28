@@ -8,11 +8,8 @@ category: 'Tech'
 draft: false 
 lang: ''
 ---
-Here’s the updated blog post incorporating the recommendations for better engagement:
 
----
-
-### Enhancing Observability in Azure: Strategies, Tools, and AI Integration
+### Intro
 
 In today’s cloud-native landscape, observability is crucial for modern software practices, particularly in Site Reliability Engineering (SRE) and platform engineering. It provides teams with valuable insights into system health and performance, ensuring reliability, meeting Service Level Objectives (SLOs), and optimising operations. For platform teams, observability is essential for identifying bottlenecks, improving infrastructure efficiency, and streamlining deployments.
 
@@ -24,7 +21,7 @@ In this final post of my [Monitoring and Observability track](https://cloudywate
 
 Have you ever felt overwhelmed by all the metrics and logs you have to sift through to keep your systems running smoothly? You're not alone. Traditional monitoring often falls short in providing the deep insights needed to maintain reliability and optimise performance. That’s where a robust observability strategy comes into play—it turns all that noise into actionable insights, making it easier for teams to detect, troubleshoot, and resolve issues quickly.
 
-Imagine a scenario where an e-commerce platform experiences a sudden spike in error rates during a flash sale. With AI-driven anomaly detection in Azure Monitor, the issue is flagged before customers even notice, allowing the engineering team to resolve the root cause in real time. This kind of proactive monitoring not only improves user experience but also saves valuable time and resources.
+Imagine a scenario where an e-commerce platform experiences a sudden spike in error rates during a flash sale. With AI-driven anomaly detection, the issue is flagged before customers even notice, allowing the engineering team to resolve the root cause in real time. This kind of proactive monitoring not only improves user experience but also saves valuable time and resources.
 
 ### Tailoring Observability for Stakeholders
 
@@ -88,9 +85,7 @@ Azure Monitor offers robust, built-in AI features like anomaly detection, smart 
 
 Grafana, on the other hand, speeds up time to value with its flexible plugin ecosystem and integrations with various AI platforms and partner-created tools. This makes it easier to quickly implement AI capabilities and extend observability across diverse environments without extensive setup.
 
-### Reporting in
-
- Observability
+### Reporting in Observability
 
 Effective reporting is a crucial component of observability, providing stakeholders with insights into system performance, trends, and incidents. It transforms raw monitoring data into meaningful information that can guide decision-making at various levels. Automating report generation and delivery reduces the operational burden on teams. Once self-service dashboards are in place, reporting remains valuable for scenarios like governance meetings.
 

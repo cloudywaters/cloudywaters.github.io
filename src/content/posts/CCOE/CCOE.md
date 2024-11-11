@@ -3,7 +3,7 @@ title: How to Approach a Cloud Centre of Excellence (CCoE) Correctly
 published: 2024-11-11
 description: 'The Cloud Centre of Excellence (CCoE) can be a powerhouse of innovation and efficiency or a bureaucratic bottleneck where good ideas falter. This post offers tips to ensure your CCoE stays agile and avoids unnecessary complexity.'
 image: 'neo.jpg'
-tags: [operating-model, CCOE, Azure]
+tags: [Operating-Model, CCOE, Azure]
 category: 'Tech'
 draft: false 
 lang: ''

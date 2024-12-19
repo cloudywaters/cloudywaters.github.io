@@ -17,7 +17,7 @@ Let’s take a stroll down memory lane and unpack the year’s standout moments 
 
 ### **The Key Trends of 2024**
 
-#### **1. AI That’s Smarter (and More Helpful) Than Your Average Team Member**  
+#### AI That’s Smarter (and More Helpful) Than Your Average Team Member  
 There’s no doubt that 2024 was the year that AI became mainstream. Microsoft’s AI innovation reached new heights, with **M365 Copilot**, **Azure Copilot**, **Security Copilot**, and **GitHub Copilot** taking centre stage.
 
 - **M365 Copilot**: Integrated into the Microsoft 365 suite, M365 Copilot brought generative AI into daily productivity tools like Word, Excel, and Teams. From creating meeting summaries in seconds to generating complex financial models in Excel, it’s revolutionised how businesses work, making AI a core part of collaboration and task execution.
@@ -30,16 +30,28 @@ There’s no doubt that 2024 was the year that AI became mainstream. Microsoft�
 
 These Copilots collectively highlight Microsoft’s commitment to embedding AI at every layer of operations, making workflows more intelligent, secure, and efficient.
 
+#### **Beyond Copilot: Building Bespoke AI Solutions**  
+While the rush to adopt tools like Copilot has dominated headlines, 2024 also marked a significant rise in businesses looking to build their own AI-powered services using **Azure’s OpenAI Service**. 
 
-#### **2. Fabric: Your Data Estate’s New Best Friend**  
+From chatbots and virtual assistants to custom generative AI models tailored to industry-specific needs, Azure OpenAI has enabled organisations to harness the power of large language models (LLMs) and fine-tune them for bespoke use cases.  
+ 
+Notable examples include:  
+- **Customer Support Automation**: Retail and finance companies have built AI agents to handle complex customer queries, dramatically improving response times and customer satisfaction.  
+- **Content Generation Platforms**: Media and marketing organisations have leveraged OpenAI to generate on-brand content at scale, cutting down on manual workloads.  
+- **Predictive Modelling for Healthcare**: Healthcare providers have developed AI tools to predict patient outcomes and optimise resource allocation.  
+
+This trend highlights the increasing shift from "off-the-shelf" AI to more **customised, strategic AI solutions**, where businesses take control of their AI innovation journey.
+
+#### Fabric: Your Data Estate’s New Best Friend 
+
 While officially launched in 2023, **Microsoft Fabric** has been a standout for many organisations in 2024. Fabric provides a unified data platform to Azure, combining analytics and data management into a single, seamless ecosystem. With features like vector search and RAG (Retrieval-Augmented Generation), Fabric makes handling data less of a chore and more of a breeze for data scientists and analysts alike.
 
 
-#### **3. VMware on Azure: A Renewed Spotlight**  
+#### VMware on Azure: A Renewed Spotlight 
 Broadcom’s licensing updates for VMware prompted many organisations to reevaluate their infrastructure strategies. Azure VMware Solution emerged as a key contender, providing a seamless way to migrate and modernise VMware workloads in Azure while avoiding restrictive licensing costs.
 
 
-#### **4. Security Under Scrutiny**  
+#### Security Under Scrutiny 
 The CrowdStrike outage earlier this year sent shockwaves across industries, leading many organisations to reassess their cybersecurity measures. More businesses than ever are now exploring Microsoft’s comprehensive security suite, including **Defender for Cloud** and **Microsoft Sentinel**, to ensure robust threat detection and incident response.
 
 

@@ -11,7 +11,6 @@ lang: ''
 
 As 2024 comes to a close, Microsoft Azure has once again proven why it’s the Beyoncé of the cloud world—consistently innovating, setting trends, and leaving everyone else scrambling to catch up. From redefining AI integration to rolling out major updates across network, security, policy, GitHub, compute, and architecture guidance, this year has been nothing short of transformative. Let’s take a stroll down memory lane and unpack the year’s standout moments—and even dare to predict what 2025 might bring.
 
-
 ### **The Big Azure Moments of 2024**
 
 1. **AI That’s Smarter (and More Helpful) Than Your Average Team Member**  
@@ -33,7 +32,6 @@ As 2024 comes to a close, Microsoft Azure has once again proven why it’s the B
 
 4. **Windows Server 2025: A New Chapter in Hybrid**  
    The release of **Windows Server 2025** marked a significant leap forward, optimised for hybrid environments to seamlessly integrate with Azure. Enhanced security, better performance, and built-in compatibility with Azure services mean it’s the perfect upgrade for anyone still clinging to older versions. Let’s face it, folks—2016 called, and it wants its server back.
-
 
 ### **Major Updates Across Azure Domains**
 
@@ -132,4 +130,3 @@ With AI tools like Azure Copilot gaining ground, 2025 will see a focus on person
 From revolutionising AI-powered services to advancing policy governance and redefining operational models with GitOps and platform engineering, 2024 has been a stellar year for Microsoft Azure. As we step into 2025, these predictions highlight an exciting road ahead, with smarter tools, tighter security, and more streamlined operations shaping the future of cloud computing.
 
 So, whether you’re a developer, an IT leader, or just a tech enthusiast, keep an eye on Azure—it’s sure to surprise us all yet again. Here’s to another year of innovation and coffee-fuelled excellence in the cloud!
-

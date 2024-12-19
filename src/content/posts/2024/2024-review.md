@@ -38,12 +38,12 @@ As 2024 comes to a close, Microsoft Azure has once again proven why it’s the B
    - Azure introduced **multi-layered DDoS protection** with DDoS IP Protection SKU, making it easier for businesses of all sizes to secure their workloads against malicious attacks.  
    - **Azure Networking Centre** enhancements brought a unified interface to manage virtual networks, private endpoints, and ExpressRoute—saving IT teams from juggling countless dashboards.  
    - The expanded availability of **Azure Virtual WAN** now supports global mesh connectivity, improving performance for businesses operating in multiple regions.  
-   - **Network Virtual Appliances (NVAs) and Third-Party Integrations**: Azure Virtual WAN hubs gained support for NVAs and integrated third-party solutions, enabling customers to deploy advanced network security and traffic management solutions directly into the WAN hub. This provides greater flexibility and simplifies connectivity for enterprises relying on complex network topologies or vendor-specific tools.
+   - **Internet inbound/DNAT for Next-Generation Firewall NVAs**: Destination NAT for Network Virtual Appliances in the Virtual WAN hub allows you to publish applications to the users in the internet without directly exposing the application or server's public IP. Consumers access applications through a public IP address assigned to a Firewall Network Virtual Appliance.
 
 #### **Security: Because Nobody Likes a Breach**  
  - **Microsoft Entra Enhancements**: Building upon its 2022 launch, Microsoft Entra introduced several key updates in 2024 to strengthen identity and access management:  
      - **Security Copilot Integration**: Microsoft expanded the public preview of Security Copilot by embedding it directly into the Microsoft Entra admin center, enabling easy access to identity insights within the admin experience. 
-     - **Microsoft Entra Private Access**: New capabilities such as Quick Access Policies, App Discovery, Private Domain Name System (DNS), and Network Connectors were introduced to enhance secure access solutions. 
+     - **Microsoft Entra Private Access goes GA**: New capabilities such as Quick Access Policies, App Discovery, Private Domain Name System (DNS), and Network Connectors were introduced to enhance secure access solutions. 
      - **Real-time Password Spray Detection**: Microsoft Entra ID Protection now includes real-time detection of password spray attacks, enhancing the ability to identify and respond to this common threat vector. 
      - **Device-bound Passkey Support**: Microsoft Authenticator for iOS and Android added support for device-bound passkeys, providing users with more secure and convenient authentication methods. 
      - **Health Monitoring Metrics**: The introduction of health metrics in Microsoft Entra provides administrators with low-latency, pre-computed metrics to monitor the health of critical user scenarios, such as MFA and Conditional Access compliance. 
@@ -77,13 +77,13 @@ If you still aren't sure what Platform Engineering is, why it was needed and how
 
 ### **The Azure Well-Architected Framework (WAF): Updated and Improved**
 
-The **Microsoft Azure Well-Architected Framework (WAF)** received a significant refresh, ensuring organisations have the tools to build top-notch cloud solutions. Key updates include:
+The **Microsoft Azure Well-Architected Framework (WAF)** received a significant refresh in Nov 2023. I know it's not a 2024 thing but Im adding it in here because I dont think anyone looked at it til 2024! Key updates include:
 
 - **Expanded Service Guides**: New guides were introduced for services like Azure NetApp Files, Azure Blob Storage, and Azure Monitor Application Insights, offering tailored design recommendations.  
 - **SaaS Workload Guidance**: New articles focused on SaaS architecture, covering topics like billing, governance, DevOps, and operational best practices.  
 - **Architecture Decision Records (ADR)**: Refreshed ADR guidance ensures better decision-making with clearly defined problem statements and outcomes.  
 - **Tradeoff and Design Patterns**: All tradeoff and design pattern articles were updated to align with current best practices.  
-- **AI Workloads**: New guidance addressed the unique challenges of designing AI workloads, from data architecture to operational management.  
+- **AI Workloads**: New guidance addressed the unique challenges of designing AI workloads, from data architecture to operational management (this one is a 2024 thing).  
 
 These updates solidify WAF as a cornerstone for building secure, scalable, and efficient cloud environments.
 

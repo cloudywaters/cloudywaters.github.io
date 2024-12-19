@@ -1,5 +1,5 @@
 ---
-title: Azure Services: 2024 Year in Review – A Year of Innovation (and a Lot of Buzzwords)
+title: 2024 Year in Review – A Year of Innovation (and a Lot of Buzzwords)
 published: 2024-12-19
 description: '2024 has been a kind of crazy and tough year for a lot of people. With everything thats happened you would be forgiven to have missed some things. In this post I recap some of my favourite things that have come out and also try to predict whats going to be in focus for 2025'
 image: '2024-25.jpeg'
@@ -8,7 +8,6 @@ category: 'Business'
 draft: false 
 lang: ''
 ---
-
 As 2024 comes to a close, Microsoft Azure has once again proven why it’s the Beyoncé of the cloud world—consistently innovating, setting trends, and leaving everyone else scrambling to catch up. From redefining AI integration to rolling out major updates across network, security, policy, GitHub, compute, and architecture guidance, this year has been nothing short of transformative. Let’s take a stroll down memory lane and unpack the year’s standout moments—and even dare to predict what 2025 might bring.
 
 ### **The Big Azure Moments of 2024**

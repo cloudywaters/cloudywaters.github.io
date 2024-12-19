@@ -41,15 +41,13 @@ As 2024 comes to a close, Microsoft Azure has once again proven why it’s the B
    - **Network Virtual Appliances (NVAs) and Third-Party Integrations**: Azure Virtual WAN hubs gained support for NVAs and integrated third-party solutions, enabling customers to deploy advanced network security and traffic management solutions directly into the WAN hub. This provides greater flexibility and simplifies connectivity for enterprises relying on complex network topologies or vendor-specific tools.
 
 #### **Security: Because Nobody Likes a Breach**  
-   - **Microsoft Entra** brought unified identity governance to Azure, consolidating management of permissions across cloud and hybrid environments.  
-   - **Azure Confidential Computing** continued its expansion, allowing organisations to protect sensitive workloads using hardware-based encryption.  
-   - **Microsoft Sentinel Integrations**: Microsoft Sentinel introduced several new integrations in 2024, including:  
-     - **1Password Extended Access Management**: For real-time visibility and alerts on login attempts and account changes.  
-     - **Cisco Secure Email Threat Defense**: To collect threat data from email systems for enhanced detection and response.  
-     - **Cribl Stream**: To streamline SIEM migrations and enrich third-party data in Sentinel.  
-     - **FortiNDR Cloud**: Bringing advanced network detection and response capabilities.  
-     - **Pure Storage**: Combining data storage optimisation with enhanced security features.  
-     These integrations expand Sentinel’s reach, enabling seamless connectivity to diverse security tools and environments.  
+ - **Microsoft Entra Enhancements**: Building upon its 2022 launch, Microsoft Entra introduced several key updates in 2024 to strengthen identity and access management:  
+     - **Security Copilot Integration**: Microsoft expanded the public preview of Security Copilot by embedding it directly into the Microsoft Entra admin center, enabling easy access to identity insights within the admin experience. 
+     - **Microsoft Entra Private Access**: New capabilities such as Quick Access Policies, App Discovery, Private Domain Name System (DNS), and Network Connectors were introduced to enhance secure access solutions. 
+     - **Real-time Password Spray Detection**: Microsoft Entra ID Protection now includes real-time detection of password spray attacks, enhancing the ability to identify and respond to this common threat vector. 
+     - **Device-bound Passkey Support**: Microsoft Authenticator for iOS and Android added support for device-bound passkeys, providing users with more secure and convenient authentication methods. 
+     - **Health Monitoring Metrics**: The introduction of health metrics in Microsoft Entra provides administrators with low-latency, pre-computed metrics to monitor the health of critical user scenarios, such as MFA and Conditional Access compliance. 
+- **Azure Confidential Computing** continued its expansion, allowing organisations to protect sensitive workloads using hardware-based encryption.   
 
 #### **Policy: Keeping the Chaos Under Control**  
    - Azure Policy added **AI-driven compliance recommendations**, helping administrators automate governance across sprawling environments.  

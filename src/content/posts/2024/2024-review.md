@@ -69,12 +69,11 @@ As 2024 comes to a close, Microsoft Azure has once again proven why it’s the B
 
 ### **Platform Engineering: Quietly Rising to the Top**
 
-#### **Platform Engineering: The New DevOps MVP**  
 While platform engineering isn’t a new concept, 2024 has seen it rise to prominence as the must-have framework for organisations seeking to streamline operations and boost developer productivity. With its focus on building internal platforms as products for developers, platform engineering is now challenging traditional approaches like DevOps and even Site Reliability Engineering (SRE) for the “top dog” title in operational excellence.
 
 This year, surveys revealed that **94% of organisations** implementing platform engineering reported significant improvements in operational efficiency and developer satisfaction. Azure has been at the forefront of this movement, enhancing its Kubernetes orchestration, deployment automation, and service mesh integrations to support the rise of platform teams. As we head into 2025, platform engineering’s focus on enabling **developer self-service** and **operational consistency** positions it as a key player in modern IT strategies and moves beyond just being for Kubernetes.
 
-If you still aren't sure what Platform Engineering is and how it differs from other frameworks, I recommend watching the below- it's a great explination (albiet a bit lengthy)
+If you still aren't sure what Platform Engineering is, why it was needed and how it differs from other frameworks, I recommend watching the below- it's a great explination (albiet a bit lengthy)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms?si=iNatTiF6g9GIruqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -126,6 +125,6 @@ With AI tools like Azure Copilot gaining ground, 2025 will see a focus on person
 
 ### **Wrapping It All Up**
 
-From revolutionising AI-powered services to advancing policy governance and redefining operational models with GitOps and platform engineering, 2024 has been a stellar year for Microsoft Azure. As we step into 2025, these predictions highlight an exciting road ahead, with smarter tools, tighter security, and more streamlined operations shaping the future of cloud computing.
+From revolutionising AI-powered services to advancing policy governance and redefining operational models with platform engineering, 2024 has been a stellar year for Microsoft Azure. As we step into 2025, these predictions highlight an exciting road ahead, with smarter tools, tighter security, and more streamlined operations shaping the future of cloud computing.
 
 So, whether you’re a developer, an IT leader, or just a tech enthusiast, keep an eye on Azure—it’s sure to surprise us all yet again. Here’s to another year of innovation and coffee-fuelled excellence in the cloud!

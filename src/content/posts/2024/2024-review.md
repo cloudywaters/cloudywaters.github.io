@@ -74,7 +74,7 @@ While platform engineering isn’t a new concept, 2024 has seen it rise to promi
 
 This year, surveys revealed that **94% of organisations** implementing platform engineering reported significant improvements in operational efficiency and developer satisfaction. Azure has been at the forefront of this movement, enhancing its Kubernetes orchestration, deployment automation, and service mesh integrations to support the rise of platform teams. As we head into 2025, platform engineering’s focus on enabling **developer self-service** and **operational consistency** positions it as a key player in modern IT strategies and moves beyond just being for Kubernetes.
 
-If you still aren't sure what Platform Engineering is and how it differs from other frameworks, I recommend whatching the below- it's a great explination.
+If you still aren't sure what Platform Engineering is and how it differs from other frameworks, I recommend watching the below- it's a great explination (albiet a bit lengthy)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms?si=iNatTiF6g9GIruqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

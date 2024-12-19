@@ -1,7 +1,7 @@
 ---
 title: Azure Services: 2024 Year in Review – A Year of Innovation (and a Lot of Buzzwords)
-published: 2024-12-20
-description: 
+published: 2024-12-19
+description: '2024 has been a kind of crazy and tough year for a lot of people. With everything thats happened you would be forgiven to have missed some things. In this post I recap some of my favourite things that have come out and also try to predict whats going to be in focus for 2025'
 image: '2024-25.jpeg'
 tags: [Azure, Review]
 category: 'Business'
@@ -77,6 +77,10 @@ While platform engineering isn’t a new concept, 2024 has seen it rise to promi
 
 This year, surveys revealed that **94% of organisations** implementing platform engineering reported significant improvements in operational efficiency and developer satisfaction. Azure has been at the forefront of this movement, enhancing its Kubernetes orchestration, deployment automation, and service mesh integrations to support the rise of platform teams. As we head into 2025, platform engineering’s focus on enabling **developer self-service** and **operational consistency** positions it as a key player in modern IT strategies and moves beyond just being for Kubernetes.
 
+If you still arent sure what Platform Engineering is and how it differs from other frameworks, I recommend whating the below and it's a great explination.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms?si=iNatTiF6g9GIruqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### **The Azure Well-Architected Framework (WAF): Updated and Improved**
 
 The **Microsoft Azure Well-Architected Framework (WAF)** received a significant refresh, ensuring organisations have the tools to build top-notch cloud solutions. Key updates include:
@@ -95,7 +99,7 @@ These updates solidify WAF as a cornerstone for building secure, scalable, and e
 As Azure leads the cloud space into 2025, several trends and advancements are poised to reshape the industry. Here’s what we predict:
 
 #### Platform Engineering Takes Centre Stage
-Platform engineering has already established itself as a cornerstone of cloud operations, but 2025 is set to be the year it becomes ubiquitous. Organisations will prioritise building internal platforms that simplify development and operational tasks. Expect Azure to double down on supporting platform engineering with enhanced tools for Kubernetes, service meshes, and developer self-service portals. The rise of **platform as a product** will dominate DevOps strategies.
+Platform engineering has already established itself as a cornerstone of cloud operations, but 2025 is set to be the year it becomes ubiquitous. Organisations will prioritise building internal platforms that simplify development and operational tasks. Expect Azure to double down on supporting platform engineering with enhanced tools, service meshes, and developer self-service portals. The rise of **platform as a product** will dominate DevOps strategies.
 
 
 #### SMART Cloud Adoption Will Lead the Way

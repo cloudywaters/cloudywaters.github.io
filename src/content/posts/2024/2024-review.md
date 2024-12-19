@@ -24,7 +24,7 @@ As 2024 comes to a close, Microsoft Azure has once again proven why it’s the B
    These Copilots collectively highlight Microsoft’s commitment to embedding AI at every layer of operations, making workflows more intelligent, secure, and efficient.
 
 2. **Fabric: Your Data Estate’s New Best Friend**  
-   The launch of **Microsoft Fabric** brought a unified data platform to Azure, combining analytics and data management into a single, seamless ecosystem. With features like vector search and RAG (Retrieval-Augmented Generation), Fabric makes handling data less of a chore and more of a breeze for data scientists and analysts alike.
+   While officially launched in 2023, **Microsoft Fabric** has been a big stand out for many organisations in 2024. Fabric provides a unified data platform to Azure, combining analytics and data management into a single, seamless ecosystem. With features like vector search and RAG (Retrieval-Augmented Generation), Fabric makes handling data less of a chore and more of a breeze for data scientists and analysts alike. To bring it into the 2024 theme, many updates have been announced this year, including the introduction of **Capacity Pools**, **CoPilot Support** and **SQL Databases** to name a few.
 
 3. **Azure Local: Bringing the Cloud to You**  
    In one of the year’s most exciting announcements, **Azure Local** was introduced to bridge the gap between on-premises and cloud environments. Designed for industries with compliance or latency concerns, it delivers the power of Azure services directly to your data centre. It’s like inviting the cloud to your place for a BBQ—but without worrying about rain.

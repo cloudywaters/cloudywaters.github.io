@@ -1,7 +1,7 @@
 ---
 title: 'Escaping the Data Centre (Without Losing Your Sanity): A Practical Look at Azure VMware Solution'
 published: 2025-11-10
-description: 'We’ve all been there — the great data centre escape. The racks are humming, the lease is ending, and someone’s just realised that “move to the cloud” isn’t as simple as dragging and dropping a few VMs into Azure.'
+description: 'Thinking about using Azure VMware Solution for a quick data centre exit? This post dives into what AVS does well (and what it doesn’t), with straight-talking insights on cluster sizing, storage design, network pitfalls, and keeping things running once you’re there.'
 image: 'avs-overview.jpeg'
 tags: [Azure, AVS, VMWare]
 category: 'Tech'
@@ -52,9 +52,14 @@ Treat storage like a design domain, not an afterthought — because in AVS, the 
 
 ## Networking: The ExpressRoute Maze
 
-Networking in AVS is where most architects reach for coffee. AVS controls its own NSX-T Tier-0 gateway, which means you don’t get full control over routing. You can’t stretch on-prem subnets into AVS or manually rewire Tier-0 routing.  
+Networking in AVS is where most architects reach for coffee. AVS controls its own NSX-T Tier-0 gateway, which means you don’t get full control over routing. You can’t natively stretch on-premises subnets into AVS or manually rewire Tier-0 routing.  
+
+That said, you can use HCX to extend networks during migrations or even between AVS environments. HCX can provide Layer 2 network stretching to simplify workload mobility, allowing VMs to move without immediate IP changes. It’s incredibly useful for migration waves or coexistence, but it comes with plenty of complexity — especially around routing, gateway placement, and long-term management.  
+
+If you plan to use HCX for this, design it deliberately. It’s a great migration enabler, but not a permanent networking strategy. Expect additional latency, dependency on HCX appliances, and more than a few whiteboard sessions to get the routing right.  
 
 AVS connects to your Azure environment (and on-prem) via ExpressRoute. You’ll often need Global Reach or Virtual WAN integration to make traffic flow cleanly. And yes — if you get it wrong, asymmetric routing will turn your elegant migration into an expensive debugging session.  
+
 
 ### Firewalling and Segmentation
 

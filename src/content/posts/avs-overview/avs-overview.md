@@ -56,7 +56,7 @@ Networking in AVS is where most architects reach for coffee. AVS controls its ow
 
 That said, you can use HCX to extend networks during migrations or even between AVS environments. HCX can provide Layer 2 network stretching to simplify workload mobility, allowing VMs to move without immediate IP changes. It’s incredibly useful for migration waves or coexistence, but it comes with plenty of complexity — especially around routing, gateway placement, and long-term management.  
 
-If you plan to use HCX for this, design it deliberately. It’s a great migration enabler, but not a permanent networking strategy. Expect additional latency, dependency on HCX appliances, and more than a few whiteboard sessions to get the routing right.  
+If you plan to use HCX for this, design it deliberately. It’s a great migration enabler, but can be a complex networking strategy full time. Expect additional latency, dependency on HCX appliances, and more than a few whiteboard sessions to get the routing right.  
 
 AVS connects to your Azure environment (and on-prem) via ExpressRoute. You’ll often need Global Reach or Virtual WAN integration to make traffic flow cleanly. And yes — if you get it wrong, asymmetric routing will turn your elegant migration into an expensive debugging session.  
 
